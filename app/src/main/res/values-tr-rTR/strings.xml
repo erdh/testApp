@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">test</string>
+    <string name="nav_header_title">Kullanıcı</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="menu_ana_sayfa">Ana Sayfa</string>
+    <string name="menu_siralama">Sıralama</string>
+    <string name="menu_profil">Profil</string>
+    <string name="prompt_email">E-Posta</string>
+    <string name="prompt_password">Şifre</string>
+    <string name="action_sign_in">Giriş yap ya da kaydol</string>
+    <string name="action_sign_in_short">Giriş</string>
+    <string name="welcome">Hoş Geldiniz!</string>
+    <string name="invalid_username">Geçerli bir kullanıcı ismi değil</string>
+    <string name="invalid_password">Şifre en az 5 karakterden oluşmalıdır</string>
+    <string name="login_failed">Giriş başarısız oldu</string>
+</resources>
