@@ -1,13 +1,13 @@
-package com.example.test.ui.gallery
+package com.example.test.ui.Profile
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class GalleryViewModel : ViewModel() {
+class SlideshowViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is ranking page"
+        value = "This is profile page"
     }
     val text: LiveData<String> = _text
 }
