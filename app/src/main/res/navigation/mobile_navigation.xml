@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/nav_ranking"
-        android:name="com.example.test.ui.gallery.GalleryFragment"
+        android:name="com.example.test.ui.ranking.GalleryFragment"
         android:label="@string/menu_siralama"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_profile"
-        android:name="com.example.test.ui.slideshow.SlideshowFragment"
+        android:name="com.example.test.ui.Profile.SlideshowFragment"
         android:label="@string/menu_profil"
         tools:layout="@layout/fragment_slideshow" />
     <activity
