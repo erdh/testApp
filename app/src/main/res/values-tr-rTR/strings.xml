@@ -14,4 +14,5 @@
     <string name="invalid_username">Geçerli bir kullanıcı ismi değil</string>
     <string name="invalid_password">Şifre en az 5 karakterden oluşmalıdır</string>
     <string name="login_failed">Giriş başarısız oldu</string>
+    <string name="menu_login">Giriş</string>
 </resources>
