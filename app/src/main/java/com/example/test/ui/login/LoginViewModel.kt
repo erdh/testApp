@@ -6,7 +6,6 @@ import androidx.lifecycle.ViewModel
 import android.util.Patterns
 import com.example.test.data.LoginRepository
 import com.example.test.data.Result
-
 import com.example.test.R
 
 class LoginViewModel(private val loginRepository: LoginRepository) : ViewModel() {
