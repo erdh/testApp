@@ -1,2 +1,2 @@
 # testApp
-test application
+This is a test application
