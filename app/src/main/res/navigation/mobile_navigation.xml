@@ -22,9 +22,9 @@
         android:name="com.example.test.ui.Profile.SlideshowFragment"
         android:label="@string/menu_profil"
         tools:layout="@layout/fragment_slideshow" />
-    <fragment
+    <activity
         android:id="@+id/loginActivity"
-        android:name="com.example.test.ui.login.LoginFragment"
+        android:name="com.example.test.ui.login.LoginActivity"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/activity_login" />
 </navigation>
