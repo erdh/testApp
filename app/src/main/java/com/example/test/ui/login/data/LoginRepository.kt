@@ -32,6 +32,7 @@ class LoginRepository(val dataSource: LoginDataSource) {
         val result = dataSource.login(username, password)
 
         if (result is Result.Success) {
+           // buraya sql scriptleri gelecek?
             setLoggedInUser(result.data)
         }
 
