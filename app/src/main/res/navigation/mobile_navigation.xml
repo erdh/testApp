@@ -25,6 +25,6 @@
     <activity
         android:id="@+id/loginActivity"
         android:name="com.example.test.ui.login.LoginActivity"
-        android:label="fragment_login"
+        android:label="@string/login_activity"
         tools:layout="@layout/activity_login" />
 </navigation>

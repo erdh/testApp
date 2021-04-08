@@ -15,4 +15,6 @@
     <string name="invalid_password">Şifre en az 5 karakterden oluşmalıdır</string>
     <string name="login_failed">Giriş başarısız oldu</string>
     <string name="menu_login">Giriş</string>
+    <string name="login_activity">Giriş Yap</string>
+    <string name="title_activity_login">Giriş</string>
 </resources>
