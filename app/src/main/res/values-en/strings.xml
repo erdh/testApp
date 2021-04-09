@@ -15,4 +15,6 @@
     <string name="action_settings">Settings</string>
     <string name="prompt_email">Email</string>
     <string name="menu_login">Login</string>
+    <string name="login_activity">Login</string>
+    <string name="title_activity_login" translatable="false">Login</string>
 </resources>
