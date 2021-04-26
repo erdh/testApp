@@ -102,17 +102,21 @@ class LoginActivity : AppCompatActivity() {
             }
 
             login.setOnClickListener {
+                val welcome = getString(R.string.welcome)
                 auth.signInWithEmailAndPassword(username.text.toString(), password.text.toString())
                 .addOnCompleteListener() { task ->
                     if (task.isSuccessful) {
                         // Sign in success, update UI with the signed-in user's information
+                        Toast.makeText(baseContext, welcome + " " + username.text,
+                            Toast.LENGTH_SHORT).show()
 
                         val user = auth.currentUser
                         updateUI(user)
                     } else {
+                        val login_failed = getString(R.string.login_failed)
                         // If sign in fails, display a message to the user.
                         Log.w( "signInWithEmail:failure", task.exception)
-                        Toast.makeText(baseContext, "Authentication failed.",
+                        Toast.makeText(baseContext, login_failed,
                             Toast.LENGTH_SHORT).show()
                         updateUI(null)
                     }
