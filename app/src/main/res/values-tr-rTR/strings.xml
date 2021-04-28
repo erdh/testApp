@@ -8,10 +8,10 @@
     <string name="menu_profil">Profil</string>
     <string name="prompt_email">E-Posta</string>
     <string name="prompt_password">Şifre</string>
-    <string name="action_sign_in">Giriş yap ya da kaydol</string>
+    <string name="action_sign_in">Giriş yap</string>
     <string name="action_sign_in_short">Giriş</string>
     <string name="welcome">Hoş Geldiniz!</string>
-    <string name="invalid_username">Geçerli bir kullanıcı ismi değil</string>
+    <string name="invalid_username">Geçerli bir e-posta adresi değil</string>
     <string name="invalid_password">Şifre en az 5 karakterden oluşmalıdır</string>
     <string name="login_failed">Giriş başarısız oldu</string>
     <string name="menu_login">Giriş</string>
