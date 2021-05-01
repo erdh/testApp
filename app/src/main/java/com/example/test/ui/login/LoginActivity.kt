@@ -112,6 +112,7 @@ class LoginActivity : AppCompatActivity() {
 
                         val user = auth.currentUser
                         updateUI(user)
+                        finish()
                     } else {
                         val login_failed = getString(R.string.login_failed)
                         // If sign in fails, display a message to the user.
@@ -143,6 +144,8 @@ class LoginActivity : AppCompatActivity() {
     private fun updateUI(user: FirebaseUser?) {
 
     }
+
+
     private fun updateUiWithUser(model: LoggedInUserView) {
         val welcome = getString(R.string.welcome)
         val displayName = model.displayName
@@ -159,6 +162,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
 }
+
 
 /**
  * Extension function to simplify setting an afterTextChanged action to EditText components.
