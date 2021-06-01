@@ -1,5 +1,7 @@
 package com.example.test.ui.login
 
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.tooling.preview.Preview
 import android.util.Log
 import android.app.Activity
 import androidx.lifecycle.Observer
