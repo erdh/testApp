@@ -35,6 +35,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import com.example.test.NavGraph
 import com.example.test.ui.courses.CourseTabs
 import com.example.test.ui.theme.BlueTheme
 import com.example.test.ui.utils.ProvideImageLoader
@@ -80,7 +81,7 @@ fun OwlBottomBar(navController: NavController, tabs: Array<CourseTabs>) {
             tabs.forEach { tab ->
                 BottomNavigationItem(
                     icon = { Icon(painterResource(tab.icon), contentDescription = null) },
-                    label = { Text(stringResource(tab.title).uppercase(Locale.getDefault())) },
+                    label = { Text(stringResource(tab.title).toUpperCase(Locale.getDefault())) },
                     selected = currentRoute == tab.route,
                     onClick = {
                         if (tab.route != currentRoute) {

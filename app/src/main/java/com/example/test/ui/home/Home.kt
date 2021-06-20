@@ -12,11 +12,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.test.model.Course
-import com.example.owl.model.courses
+import com.example.test.model.courses
 import com.google.accompanist.insets.statusBarsHeight
 
 import com.example.test.ui.theme.BlueTheme
 import com.example.test.ui.common.CourseListItem
+import com.example.test.ui.courses.CoursesAppBar
 
 @Composable
 fun MyCourses(

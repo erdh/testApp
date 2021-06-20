@@ -123,7 +123,7 @@ fun FeaturedCourse(
                     }
             )
             Text(
-                text = course.subject.uppercase(Locale.getDefault()),
+                text = course.subject.toUpperCase(Locale.getDefault()),
                 color = MaterialTheme.colors.primary,
                 style = MaterialTheme.typography.overline,
                 modifier = Modifier

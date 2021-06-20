@@ -16,11 +16,14 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-
+        vectorDrawables.useSupportLibrary true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -35,6 +38,11 @@ android {
         useIR = true
     }
     buildFeatures {
+        buildConfig false
+        aidl false
+        renderScript false
+        resValues false
+        shaders false
         viewBinding true
         compose = true
     }
@@ -85,6 +93,7 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.0.0-beta07")
     implementation "androidx.ui:ui-framework:0.1.0-dev03"
     implementation("androidx.activity:activity-compose:1.3.0-alpha07")
+    implementation "android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha11"
 
     // İşe yarar inş
     implementation Libs.Kotlin.stdlib

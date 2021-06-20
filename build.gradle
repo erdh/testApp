@@ -1,4 +1,6 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+import com.example.test.buildsrc.Libs
+import com.example.test.buildsrc.Versions
 buildscript {
     ext.kotlin_version = "1.4.32"
     repositories {
