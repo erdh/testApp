@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/erdem/AndroidStudioProjects/testAppJetPack/app/src/main/res/drawable-v21/ic_grain.xml" value="0.1" />
         <entry key="..\:/Users/erdem/AndroidStudioProjects/testAppJetPack/app/src/main/res/drawable-v21/ic_lockup_blue.xml" value="0.1" />
         <entry key="..\:/Users/erdem/AndroidStudioProjects/testAppJetPack/app/src/main/res/drawable-v21/ic_lockup_white.xml" value="0.1" />
+        <entry key="..\:/Users/erdem/AndroidStudioProjects/testAppJetPack/app/src/main/res/drawable-v24/ic_featured.xml" value="0.1525" />
       </map>
     </option>
   </component>
