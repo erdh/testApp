@@ -17,11 +17,11 @@
         android:label="@string/menu_siralama"
         tools:layout="@layout/fragment_gallery" />
 
-    <fragment
+    <activity
         android:id="@+id/nav_profile"
         android:name="com.example.test.ui.Profile.SlideshowFragment"
         android:label="@string/menu_profil"
-        tools:layout="@layout/fragment_slideshow" />
+        />
     <activity
         android:id="@+id/loginActivity"
         android:name="com.example.test.ui.login.LoginActivity"
