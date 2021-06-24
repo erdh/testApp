@@ -106,7 +106,7 @@ class LoginActivity : AppCompatActivity() {
             login.setOnClickListener {
                 val welcome = getString(R.string.welcome)
                 auth.signInWithEmailAndPassword(username.text.toString(), password.text.toString())
-                .addOnCompleteListener() { task ->
+                .addOnCompleteListener { task ->
                     if (task.isSuccessful) {
                         // Sign in success, update UI with the signed-in user's information
                         Toast.makeText(baseContext, welcome + " " + username.text,
