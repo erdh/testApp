@@ -36,10 +36,7 @@ val pink500 = Color(0xffff0266)
 val pink600 = Color(0xffd8004d)
 val pinkDarkPrimary = Color(0xff24191c)
 
-/**
- * Return the fully opaque color that results from compositing [onSurface] atop [surface] with the
- * given [alpha]. Useful for situations where semi-transparent colors are undesirable.
- */
+
 @Composable
 fun Colors.compositedOnSurface(alpha: Float): Color {
     return onSurface.copy(alpha = alpha).compositeOver(surface)

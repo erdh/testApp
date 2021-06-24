@@ -36,9 +36,7 @@ import com.example.test.ui.courses.CourseTabs
 import com.example.test.ui.courses.courses
 import com.example.test.ui.onboarding.Onboarding
 
-/**
- * Destinations used in the ([TestApp]).
- */
+
 object MainDestinations {
     const val ONBOARDING_ROUTE = "onboarding"
     const val COURSES_ROUTE = "courses"

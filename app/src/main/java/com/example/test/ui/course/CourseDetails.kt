@@ -233,7 +233,7 @@ private fun CourseDescriptionHeader(
 @Composable
 private fun CourseDescriptionBody(course: Course) {
     Text(
-        text = course.subject.toUpperCase(Locale.getDefault()),
+        text = course.subject.uppercase(Locale.getDefault()),
         color = MaterialTheme.colors.primary,
         style = MaterialTheme.typography.body2,
         textAlign = TextAlign.Center,

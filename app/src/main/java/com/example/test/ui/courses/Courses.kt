@@ -111,9 +111,7 @@ enum class CourseTabs(
     SEARCH(R.string.search, R.drawable.ic_search, CoursesDestinations.SEARCH_COURSES_ROUTE)
 }
 
-/**
- * Destinations used in the ([OwlApp]).
- */
+
 private object CoursesDestinations {
     const val FEATURED_ROUTE = "courses/featured"
     const val MY_COURSES_ROUTE = "courses/my"
