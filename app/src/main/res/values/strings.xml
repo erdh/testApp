@@ -26,7 +26,7 @@
     <string name="label_continue_to_courses" translatable="false">Continue to courses</string>
     <string name="label_profile" translatable="false">Profile</string>
     <string name="label_settings" translatable="false">Settings</string>
-    <string name="label_back">Back</string>
+    <string name="label_back" translatable="false">Back</string>
 
     <!-- Courses -->
     <string name="my_courses" translatable="false">My Courses</string>
@@ -44,14 +44,14 @@
     <string name="step_0" translatable="false">Identify the right aperture for your scene\'s depth of field to achieve the best clarity. Use a narrower aperture so that the entire scene remains in focus.</string>
     <string name="step_1" translatable="false">Frame the subject of your landscape by making use of the lines and angles present in your scene. Look out for curves, textures, triangles, thirds, and other shapes that improve your composition.</string>
     <string name="step_2" translatable="false">Find the time of the day with the best light conditions for your scene. Balance the light sources in your composition so that both light and shadows are present, adding depth, texture, and scale to your landscape.</string>
-    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_splash_screen" translatable="false">SplashScreen</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
 
 </resources>
