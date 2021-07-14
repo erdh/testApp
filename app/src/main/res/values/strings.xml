@@ -21,4 +21,37 @@
     <string name="prompt_email">Email</string>
     <string name="login_failed">Login failed</string>
     <string name="login_activity">Login</string>
+
+    <string name="choose_topics_that_interest_you" translatable="false">Choose topics that interest you</string>
+    <string name="label_continue_to_courses" translatable="false">Continue to courses</string>
+    <string name="label_profile" translatable="false">Profile</string>
+    <string name="label_settings" translatable="false">Settings</string>
+    <string name="label_back" translatable="false">Back</string>
+
+    <!-- Courses -->
+    <string name="my_courses" translatable="false">My Courses</string>
+    <string name="featured" translatable="false">Featured</string>
+    <string name="search" translatable="false">Search</string>
+    <string name="course_step_steps" translatable="false">%1$d / %2$d</string>
+    <string name="label_expand_lessons" translatable="false">Expand lessons sheet</string>
+    <string name="label_collapse_lessons" translatable="false">Collapse lessons sheet</string>
+
+    <!--sample data-->
+    <string name="course_desc" translatable="false">This video course introduces the photography of structures, including urban and rural buildings, monuments, and less traditional structures. Instruction includes the handling of equipment and methods used to capture building interiors and exteriors. The discussion will be about the handling of distortion, varied light sources, and perspective.</string>
+    <string name="what_you_ll_need" translatable="false">What You\'ll Need:</string>
+    <string name="you_ll_also_like" translatable="false">You\'ll Also Like</string>
+    <string name="needs" translatable="false">• DSLR or manual camera\n• 24mm wide angle lens\n• Tripod</string>
+    <string name="step_0" translatable="false">Identify the right aperture for your scene\'s depth of field to achieve the best clarity. Use a narrower aperture so that the entire scene remains in focus.</string>
+    <string name="step_1" translatable="false">Frame the subject of your landscape by making use of the lines and angles present in your scene. Look out for curves, textures, triangles, thirds, and other shapes that improve your composition.</string>
+    <string name="step_2" translatable="false">Find the time of the day with the best light conditions for your scene. Balance the light sources in your composition so that both light and shadows are present, adding depth, texture, and scale to your landscape.</string>
+    <string name="title_activity_splash_screen" translatable="false">SplashScreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
+
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
+
 </resources>

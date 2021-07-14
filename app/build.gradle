@@ -1,3 +1,4 @@
+import com.example.test.buildsrc.Libs
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
@@ -11,15 +12,18 @@ android {
     defaultConfig {
         multiDexEnabled true
         applicationId "com.example.test"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-
+        vectorDrawables.useSupportLibrary true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -31,15 +35,27 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+        useIR = true
     }
     buildFeatures {
+        buildConfig false
+        aidl false
+        renderScript false
+        resValues false
+        shaders false
         viewBinding true
+        compose = true
+    }
+    composeOptions {
+        kotlinCompilerVersion = "1.5.10"
+        kotlinCompilerExtensionVersion = "1.0.0-beta08"
     }
 }
 
 dependencies {
     def multidex_version = "2.0.1"
     implementation "androidx.multidex:multidex:$multidex_version"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:1.1.0"
     implementation platform('com.google.firebase:firebase-bom:26.7.0')
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.google.firebase:firebase-auth-ktx'
@@ -55,8 +71,59 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.4'
     implementation 'androidx.annotation:annotation:1.2.0'
     implementation 'com.google.firebase:firebase-auth:20.0.3'
-    implementation "org.jetbrains.kotlin:kotlin-reflect:1.4.31"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:1.5.10"
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation("androidx.compose.ui:ui:1.0.0-beta07")
+    // Tooling support (Previews, etc.)
+    implementation("androidx.compose.ui:ui-tooling:1.0.0-beta07")
+    // Foundation (Border, Background, Box, Image, Scroll, shapes, animations, etc.)
+    implementation("androidx.compose.foundation:foundation:1.0.0-beta07")
+    // Material Design
+    implementation("androidx.compose.material:material:1.0.0-beta07")
+    // Material design icons
+    implementation("androidx.compose.material:material-icons-core:1.0.0-beta07")
+    implementation("androidx.compose.material:material-icons-extended:1.0.0-beta07")
+    // Integration with observables
+    implementation("androidx.compose.runtime:runtime-livedata:1.0.0-beta07")
+    implementation("androidx.compose.runtime:runtime-rxjava2:1.0.0-beta07")
+    implementation "androidx.compose.ui:ui-tooling:1.0.0-beta07"
+
+    // UI Tests
+    androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.0.0-beta07")
+    implementation "androidx.ui:ui-framework:0.1.0-dev03"
+    implementation("androidx.activity:activity-compose:1.3.0-alpha07")
+    implementation "android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha11"
+
+    // İşe yarar inş
+    implementation Libs.Kotlin.stdlib
+    implementation Libs.Coroutines.android
+
+    implementation Libs.AndroidX.coreKtx
+    implementation Libs.AndroidX.navigation
+    implementation Libs.AndroidX.Activity.activityCompose
+    implementation Libs.AndroidX.ConstraintLayout.constraintLayoutCompose
+
+    implementation Libs.AndroidX.Compose.runtime
+    implementation Libs.AndroidX.Compose.foundation
+    implementation Libs.AndroidX.Compose.layout
+    implementation Libs.AndroidX.Compose.ui
+    implementation Libs.AndroidX.Compose.uiUtil
+    implementation Libs.AndroidX.Compose.material
+    implementation Libs.AndroidX.Compose.animation
+    implementation Libs.AndroidX.Compose.iconsExtended
+    implementation Libs.AndroidX.Compose.tooling
+
+    implementation Libs.Accompanist.coil
+    implementation Libs.Accompanist.insets
+
+    androidTestImplementation Libs.AndroidX.Activity.activityCompose
+
+    androidTestImplementation Libs.JUnit.junit
+    androidTestImplementation Libs.AndroidX.Test.core
+    androidTestImplementation Libs.AndroidX.Test.espressoCore
+    androidTestImplementation Libs.AndroidX.Test.rules
+    androidTestImplementation Libs.AndroidX.Test.Ext.junit
+    androidTestImplementation Libs.AndroidX.Compose.uiTest
 }
