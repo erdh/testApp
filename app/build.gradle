@@ -71,6 +71,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.4'
     implementation 'androidx.annotation:annotation:1.2.0'
     implementation 'com.google.firebase:firebase-auth:20.0.3'
+    implementation 'com.google.firebase:firebase-core:19.0.0'
     implementation "org.jetbrains.kotlin:kotlin-reflect:1.5.10"
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
@@ -127,3 +128,4 @@ dependencies {
     androidTestImplementation Libs.AndroidX.Test.Ext.junit
     androidTestImplementation Libs.AndroidX.Compose.uiTest
 }
+apply plugin: 'com.google.gms.google-services'

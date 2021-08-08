@@ -4,6 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import android.util.Log
 import android.app.Activity
+import android.content.Context
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -21,6 +22,7 @@ import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 import com.example.test.R
+import com.google.firebase.FirebaseApp
 
 
 class LoginActivity : AppCompatActivity() {
@@ -34,7 +36,6 @@ class LoginActivity : AppCompatActivity() {
    public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         auth = Firebase.auth
-
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
