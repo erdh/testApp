@@ -103,8 +103,8 @@ fun Onboarding(onboardingComplete: () -> Unit) {
                     .padding(innerPadding)
             ) {
                 Text(
-                    text = stringResource(R.string.choose_topics_that_interest_you),
-                    style = MaterialTheme.typography.h4,
+                    text = stringResource(R.string.welcome),
+                    style = MaterialTheme.typography.h3,
                     textAlign = TextAlign.End,
                     modifier = Modifier.padding(
                         horizontal = 16.dp,
