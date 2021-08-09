@@ -107,7 +107,7 @@ enum class CourseTabs(
     val route: String
 ) {
     MY_COURSES(R.string.my_courses, R.drawable.ic_grain, CoursesDestinations.MY_COURSES_ROUTE),
-    FEATURED(R.string.featured, R.drawable.ic_featured, CoursesDestinations.FEATURED_ROUTE),
+    FEATURED(R.string.menu_ana_sayfa, R.drawable.ic_featured, CoursesDestinations.FEATURED_ROUTE),
     SEARCH(R.string.search, R.drawable.ic_search, CoursesDestinations.SEARCH_COURSES_ROUTE)
 }
 

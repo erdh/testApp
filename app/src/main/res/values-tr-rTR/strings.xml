@@ -17,4 +17,6 @@
     <string name="menu_login">Giriş</string>
     <string name="login_activity">Giriş Yap</string>
     <string name="title_activity_login">Giriş</string>
+    <string name="my_courses">Derslerim</string>
+    <string name="search">Arama</string>
 </resources>

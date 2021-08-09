@@ -17,4 +17,6 @@
     <string name="menu_login">Login</string>
     <string name="login_activity">Login</string>
     <string name="title_activity_login" translatable="false">Login</string>
+    <string name="my_courses">My Courses</string>
+    <string name="search">Search</string>
 </resources>
